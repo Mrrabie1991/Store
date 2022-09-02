@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="/css/animate.css">
     <script src="https://kit.fontawesome.com/39828f72c5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -43,12 +44,15 @@
                 </div>
             </div>
             <div class="buttons">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
             </div>
         </section>
 
     </header>
+
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
