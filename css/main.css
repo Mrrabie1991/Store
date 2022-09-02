@@ -1,6 +1,10 @@
 @font-face{
+    font-family: Mj_Noor;
+    src:url(/fonts/Mj_Noor.ttf) ;
+}
+@font-face {
     font-family: iran;
-    src:url() ;
+    src: url(/fonts/iran.ttf);
 }
 *{
     direction: rtl;

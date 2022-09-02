@@ -62,18 +62,21 @@ font-size: 0.9em;
 }
 .slider .slides .item img {
 width: 100%;
-height: 90vh;
+
 }
 
 .slider .slides .item span {
 
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 20%;
     font-size: 1.5em;
-    color: #222;
+    color: rgba(34, 34, 34, 0.901);
 
 }
+
+
+
 .slider .slides .active{
     display: block;
     animation: fadeIn;
@@ -97,4 +100,114 @@ height: 90vh;
 .slider .buttons i:hover {
     color: rgba(216, 173, 173, 0.873);
     
+}
+
+/* product section */
+
+
+.product-sec-new{
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+
+.product-sec-new .shoping-card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(3, 3, 3, 0.284);
+    margin: 10px 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.shoping-card .img-sec{
+    position: relative;
+
+}
+
+.shoping-card .img-sec img{
+    width: 50%;
+
+}
+
+.shoping-card .img-sec .hot-offer{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #eb4d4b;
+    color: white;
+    font-size: 0.9em;
+    padding: 3px 5px;
+    border-radius: 5px;
+
+}
+
+.shoping-card .img-sec .stars{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #f9ca24;
+
+
+}
+
+.shoping-card .title{
+    color: #333;
+    margin: 15px;
+
+}
+
+.shoping-card .buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+/* .shoping-card .buttons .right{
+
+} */
+
+.shoping-card .buttons .right .price {
+    color: #666;
+    font-weight: bold;
+
+}
+
+.shoping-card .buttons .left{
+    display: flex;
+
+}
+.shoping-card .buttons .left .extend-btn{
+    display: flex;
+    width: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#16a085 ;
+    color: white;
+    margin-left: 5px ;
+    padding: 8px 12px;
+    border-radius: 25px;
+    
+    cursor: pointer;
+    transition: .75s;
+
+
+}
+.shoping-card .buttons .left .extend-btn:hover{
+    width: 100px;
+}
+
+.shoping-card .buttons .left .extend-btn .b-text {
+    display: none;
+    color: white;
+
+}
+.shoping-card .buttons .left .extend-btn:hover .b-text{
+    display: block;
+}
+.shoping-card .buttons .left .extend-btn .b-icon {
+    color: white;
+    padding-top:3px ;
+
 }
